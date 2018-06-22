@@ -1,0 +1,63 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TaskTrayApplication.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ShowMessage" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LDAPserver" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LDAP://directory.fedex.com:389</Value>
+    </Setting>
+    <Setting Name="SearchPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ou=people,o=fedex,c=US</Value>
+    </Setting>
+    <Setting Name="UserAttr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">uid</Value>
+    </Setting>
+    <Setting Name="tcpPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8083</Value>
+    </Setting>
+    <Setting Name="iDVRserver" Type="System.String" Scope="User">
+      <Value Profile="(Default)">benpidvr.ebs.fedex.com</Value>
+    </Setting>
+    <Setting Name="iDVRuser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">681593</Value>
+    </Setting>
+    <Setting Name="iDVRpwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Anythin9</Value>
+    </Setting>
+    <Setting Name="KeyClientID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="KeyServerID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="SenderKeyVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1.0</Value>
+    </Setting>
+    <Setting Name="ReceiverKeyVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1.0</Value>
+    </Setting>
+    <Setting Name="TestURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ak-uat.ehr.com/FedEx/default.ashx?classname=recordingsso</Value>
+    </Setting>
+    <Setting Name="ProdURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AgentName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NonCsrTestURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ak-uat.ehr.com/FedEx/default.ashx?classname=sso</Value>
+    </Setting>
+    <Setting Name="LoginID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">681593</Value>
+    </Setting>
+    <Setting Name="AgentID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">6606441</Value>
+    </Setting>
+    <Setting Name="lb_test" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
